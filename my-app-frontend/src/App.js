@@ -8,12 +8,14 @@ import SignUp from './components/Signup'
 import Footer from "./components/Footer";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
+import Card from './components/Card';
 
 function App() {
   return (
     <div>
       <Navbar />
       <Home />
+      <Card />
       <Router>
       
       <div className="App">

@@ -41,3 +41,18 @@
     transform: rotate(360deg);
   }
 }
+
+.btn {
+  border: 0;
+  height: 45px;
+  border: 0;
+  background: $secondary-color;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+form {
+  background-color:azure;
+}
