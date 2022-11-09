@@ -11,8 +11,9 @@ import "bootstrap/dist/js/bootstrap.bundle.min";
 function App() {
   return (
     <div>
-      <Header />
       <Navbar />
+      {/* <Header /> */}
+      
       <Home />
       {/* <Appointments /> */}
       <Footer />

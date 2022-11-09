@@ -6,6 +6,24 @@
   height: 10vmin;
   pointer-events: none;
 }
+.logo-text{
+ font-size: 2.4rem !important;;
+  align-items: center;
+  margin-top: 15px !important;
+  margin-left: 20px !important;
+}
+
+
+.App-header {
+  display:inline-flex;
+  flex-direction:row;
+  color: red;
+  margin-left: 10px;
+}
+
+.App-link {
+  color: white;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -13,20 +31,6 @@
   }
 }
 
-.App-header {
-  background-color: white;
-  min-height: 10vh;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(20px + 4vmin);
-  color: red;
-}
-
-.App-link {
-  color: #61dafb;
-}
 
 @keyframes App-logo-spin {
   from {

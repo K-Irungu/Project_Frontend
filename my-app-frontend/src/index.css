@@ -2,17 +2,29 @@ h1 {
   color: black;
 }
 .navbar {
-  width: 100%;
-  /* position: relative; */
-  display: inline-block;
+  position: relative;
+  display: inline-flex;
   list-style-type: none;
+  border: 0;
+  z-index: 9999;
+  line-height: 70px;
+  margin-top: 0px !important;
+  width: 100%; 
+  
+  
+}
+
+
+
+.h2{
+  margin-top: auto;
 }
 
 /* footer */
-/* ul {
+ul {
   margin: 0px;
   padding: 0px;
-} */
+}
 .footer-section {
   position: relative;
 }
@@ -74,7 +86,7 @@ h1 {
   padding: 100px 0px;
 }
 p {
-  font-size: 22px;
+  font-size: 20px;
 }
 .half-half-image-text {
   padding: 50px 100px;
