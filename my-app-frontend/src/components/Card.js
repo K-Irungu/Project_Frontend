@@ -7,7 +7,7 @@ function Card() {
     <input type ="text"  placeholder= " Key in Your name"/>
 
     <div class="form-group" required="">
-            <label for="sel1">Delivery option:</label>
+    <label for="sel1">SERVICES:</label>
             <select class="form-control" id="pick">
               <option>---Services---</option>
                 <option value="1">Optician</option>
