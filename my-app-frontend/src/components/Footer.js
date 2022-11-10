@@ -1,10 +1,7 @@
 import React from "react";
 
-
-
 function Footer() {
     return (
-
 
 <div>
 <footer class="footer-section bg-danger">

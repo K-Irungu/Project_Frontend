@@ -20,9 +20,6 @@ function App() {
       {/* <Appointments /> */}
       <Footer />
       </div>
-
-
-
   );
 }
 

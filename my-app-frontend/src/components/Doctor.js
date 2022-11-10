@@ -90,11 +90,6 @@ const LoginForm = ({ onSubmit }) => {
       </Form>
     );
   };
-  
-
-
-
-
 
 export const Doctor=()=>{
     const [count,setcount]=useState(1)
@@ -112,13 +107,9 @@ export const Doctor=()=>{
   
     const onLoginFormSubmit = (e) => {
         e.preventDefault();
-        alert("you have successfully appointed")
+        alert("You're  appointed has successfully been booked")
         handleClose();
       };
-
-
-
- 
     const handleclick=()=>{
         
        if(count<=length){
@@ -126,12 +117,10 @@ export const Doctor=()=>{
            
            
        }else{
-        //    alert('No More appointments can be done')
+          alert('No More appointments can be done')
            bool=false
        }
     }
- 
-   
     return(
       <div>
           
@@ -148,7 +137,6 @@ export const Doctor=()=>{
   
    </div>
 </div>
-
 
           {/* data */}
            {data.map(e=>{
@@ -182,9 +170,6 @@ export const Doctor=()=>{
                )
            })}
 
-
-        
-
     <Modal show={show} onHide={handleClose}>
             <Modal.Header closeButton>
             <Modal.Title>Booking Form</Modal.Title>
@@ -199,19 +184,9 @@ export const Doctor=()=>{
             </Modal.Footer>
         </Modal>
 
-           {/*  */}
-
-
-      
-
-       
-
-
-           
+           {/*  */}         
 </div>
-
-
-    )
+  )
 }
 
                   

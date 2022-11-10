@@ -1,7 +1,5 @@
 import bg from "../img/bg.png";
 
-
-
 function Home() {
     return (
       
