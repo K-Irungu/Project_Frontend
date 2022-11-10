@@ -7,11 +7,10 @@ import "bootstrap/dist/js/bootstrap.bundle.min";
 function Card() {
     return (
         <>
-    
+
                <div className="form-group ">
-               
-      <input type ="text"  placeholder= " Key in Your name"/>
-  
+               <label for="sel1">PATIENTS NAME:</label>
+               <input type="text"  class="form-control" id="name" placeholder="Name" ></input>
       <div className="form-group" required="">
       <label for="sel1">SERVICES:</label>
               <select class="form-control" id="pick">
@@ -34,17 +33,17 @@ function Card() {
                   <option value="5">DR SAM</option>
                   </select>
           </div>
-  
+
           <div class="form-group">
             <button type="submit" className="btn1">Appointment</button>
                          </div>
-                    
+
                          </div>
-  
-                              
-  
+
+
+
   </>
     );
   }
-  
+
   export default Card;
