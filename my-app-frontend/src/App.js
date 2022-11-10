@@ -15,7 +15,7 @@ function App() {
     <div>
       <Navbar />
       <Home />
-      <Card />
+      < Card/>
       <Router>
       
       <div className="App">

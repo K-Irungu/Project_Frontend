@@ -42,17 +42,32 @@
   }
 }
 
-.btn {
+
+
+.btn1 {
+ background-color: ; color: red;
   border: 0;
   height: 45px;
   border: 0;
   background: $secondary-color;
   border-top-left-radius: 0;
-  border-bottom-left-radius: 0;
+  border-bottom-left-radius: 25px;
   border-top-right-radius: 25px;
   border-bottom-right-radius: 25px;
+  position: flex;
+  text-align:center;
+  margin: 20px;
 }
 
-form {
+.card {
+  position: flex;
   background-color:azure;
+  color: antiquewhite;
+}
+
+.form-group{
+  margin: 50px;;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
 }

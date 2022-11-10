@@ -3,7 +3,7 @@
   box-sizing: border-box;
 }
 body {
-  background: #1C8EF9 !important;
+  background: #1CEF9 !important;
   min-height: 100vh;
   display: flex;
   font-weight: 400;
@@ -173,3 +173,40 @@ p {
 .card {
  border-radius: 50px;
 }
+
+.btn {
+  border: 0;
+  height: 45px;
+  border: 0;
+  background: $secondary-color;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+form {
+  background-color:azure;
+}
+
+.btn1 {
+  background-color: ; color: red;
+   border: 0;
+   height: 45px;
+   border: 0;
+   background: $secondary-color;
+   border-top-left-radius:0;
+   border-bottom-left-radius: 0;
+   border-top-right-radius: 25px;
+   border-bottom-right-radius: 25px;
+   position: flex;
+ }
+ 
+ .card {
+   position: flex;
+   background-color:azure;
+ }
+ 
+ .form-group{
+ text-align: center;
+ }
