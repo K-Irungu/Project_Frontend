@@ -10,7 +10,7 @@ const data=[
     },
     {
         "id":2,
-        "name":"Aakash Upadhyay",
+        "name":"Aakash ",
         "Speciality":"Dentist",
         "Slot":"8:20AM-8:40AM",
         "Cost":"5000ksh",
@@ -19,7 +19,7 @@ const data=[
     },
     {
         "id":3,
-        "name":"Divya Gajbhiye",
+        "name":"Divya",
         "Speciality":"Dermatologit",
         "Slot":"8:40AM-9:00AM",
         "Cost":"4000 ksh",
@@ -28,7 +28,7 @@ const data=[
     },
     {
         "id":4,
-        "name":"Disha Shende",
+        "name":"Disha ",
         "Speciality":"Surgeon",
         "Slot":"9:00AM-9:20AM",
         "Cost":"4500 ksh",
@@ -37,7 +37,7 @@ const data=[
     },
     {
         "id":5,
-        "name":"Urmila Bisnoi",
+        "name":"Urmila ",
         "Speciality":"Gynacologist",
         "Slot":"9:20AM-9:40AM",
         "Cost":"1200 ksh",
@@ -46,9 +46,9 @@ const data=[
     },
     {
         "id":6,
-        "name":"Kanika singh",
+        "name":"Kanika",
         "Speciality":"Hair Specialist",
-        "Slot":"9:40AM-10:00AM",
+        "Slot":"9:40AM-1:00pm",
         "Cost":"7000 ksh",
         "img":"https://img.freepik.com/free-photo/young-lady-looking-pointing-copy-space_171337-5771.jpg?size=626&ext=jpg&ga=GA1.2.1937164049.1636684599"
         // "Slot":["4:00-4:20","4:20-4:40","4:40-5:00","5:00-5:20","5:20-5:40","5:40-6:00"]

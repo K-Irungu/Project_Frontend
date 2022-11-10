@@ -18,7 +18,7 @@ function Footer() {
                     
                     <div class="col-xl-6 col-lg-6 text-center text-lg-left">
                         <div class="copyright-text">
-                            <p>Copyright &copy; 2018, All Right Reserved <a href="#">Tabibu</a></p>
+                            <p>Copyright &copy; 2022, All Right Reserved <a href="#">Tabibu</a></p>
                         </div>
                         
                     </div>

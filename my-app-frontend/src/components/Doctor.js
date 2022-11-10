@@ -140,7 +140,7 @@ export const Doctor=()=>{
        <nav className='navbar'>
            <ul>
               
-               
+           <h1>BOOK HERE:</h1>
               
             
            </ul>
@@ -153,27 +153,28 @@ export const Doctor=()=>{
           {/* data */}
            {data.map(e=>{
                return(
-
+              <div className="ima">
                    <div className="name">
                         <div className="img">
                             <img src={e.img}></img>
                             </div>
+                            </div>
                         <div className="datamain">
                             <div className="data">
                               <div>
-                              {`Name : DR ${ e.name}`}
+                              {`:DR ${ e.name}`}
                               </div>
-                            <div>
-                            {`Speciality : ${e.Speciality}`}
+                            <div className="ima">
+                            {`:${e.Speciality}`}
                             </div>
                             <div>
                                 <span>Time Available : </span>{` ${e.Slot}`}
                             </div>
                         
-                            <div>
+                            <div className= "">
                                 {`Cost : ${e.Cost}`}
                             </div>
-                            <button onClick={handleShow } className="bt"  >Book appointment</button>
+                            <button onClick={handleShow }     class="btn btn-danger"   >Book </button>
                             </div>
                         </div>
                    </div>
