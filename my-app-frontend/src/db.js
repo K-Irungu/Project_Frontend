@@ -10,7 +10,7 @@ const data=[
     },
     {
         "id":2,
-        "name":"Aakash ",
+        "name":"Ricard ",
         "Speciality":"Dentist",
         "Slot":"8:20AM-8:40AM",
         "Cost":"5000ksh",
@@ -19,7 +19,7 @@ const data=[
     },
     {
         "id":3,
-        "name":"Divya",
+        "name":"Jonash",
         "Speciality":"Dermatologit",
         "Slot":"8:40AM-9:00AM",
         "Cost":"4000 ksh",
@@ -37,7 +37,7 @@ const data=[
     },
     {
         "id":5,
-        "name":"Urmila ",
+        "name":"Tabibu ",
         "Speciality":"Gynacologist",
         "Slot":"9:20AM-9:40AM",
         "Cost":"1200 ksh",
@@ -46,7 +46,7 @@ const data=[
     },
     {
         "id":6,
-        "name":"Kanika",
+        "name":"Karaba",
         "Speciality":"Hair Specialist",
         "Slot":"9:40AM-1:00pm",
         "Cost":"7000 ksh",
