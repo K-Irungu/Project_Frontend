@@ -107,7 +107,7 @@ export const Doctor=()=>{
   
     const onLoginFormSubmit = (e) => {
         e.preventDefault();
-        alert("You're  appointed has successfully been booked")
+        alert("Your appointed has successfully been booked")
         handleClose();
       };
     const handleclick=()=>{
