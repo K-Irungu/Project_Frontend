@@ -3,7 +3,7 @@
   box-sizing: border-box;
 }
 body {
-  background:#dc545!important;
+  /* background:#dc545!important; */
   min-height: 100vh;
   display: flex;
   font-weight: 400;
@@ -37,7 +37,7 @@ body, html, .App, #root, .auth-wrapper {
   transition: all .3s;
 }
 .auth-wrapper .form-control:focus {
-  border-color:;
+  /* border-color: */
   box-shadow: none;
 }
 .auth-wrapper h3 {
@@ -178,7 +178,7 @@ p {
   border: 0;
   height: 45px;
   border: 0;
-  background: $secondary-color;
+  /* background: $secondary-color; */
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
   border-top-right-radius: 25px;
@@ -190,11 +190,11 @@ form {
 }
 
 .btn1 {
-  background-color: ; color:  #ff5e14;
+  color:  #ff5e14;
    border: 0;
    height: 45px;
    border: 0;
-   background: $secondary-color;
+   /* background: #secondary-color; */
    border-top-left-radius:0;
    border-bottom-left-radius: 0;
    border-top-right-radius: 25px;
