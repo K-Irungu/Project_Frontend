@@ -22,7 +22,7 @@ function Navbar() {
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">
-                Appointments
+                Home
               </a>
             </li>
             <li class="nav-item">
@@ -32,7 +32,7 @@ function Navbar() {
             </li>
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">
-                Appointments
+                contact
               </a>
             </li>
           </ul>
