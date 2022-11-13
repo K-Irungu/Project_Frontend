@@ -6,19 +6,17 @@ function Footer() {
     return (
 
 
-<div>
-<footer class="footer-section bg-danger">
+<div class=" pt-5">
+<footer class="footer-section bg-danger pt-5">
         <div class="copyright-area">
-        {/* <div class="footer-logo">
-                                <a href="index.html"><img src={logo} class="img-fluid" alt="logo"/></a>
-                            </div> */}
+       
             <div class="container">
             
                 <div class="row">
                     
                     <div class="col-xl-6 col-lg-6 text-center text-lg-left">
                         <div class="copyright-text">
-                            <p>Copyright &copy; 2018, All Right Reserved <a href="#">Tabibu</a></p>
+                            <p>Copyright &copy; 2022, All Right Reserved <a href="#">Tabibu</a></p>
                         </div>
                         
                     </div>
