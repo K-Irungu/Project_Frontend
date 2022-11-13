@@ -12,7 +12,9 @@ function Home() {
       <div class="content row ">
       <h1>Book a specialist</h1>
       <p>Tabibu is an simple to use appointment booking platform that can be used by patients, doctors or hospitals to schedule hospital visits.</p>
-        <div><button class="btn btn-danger" onclick="myFunction()" id="myBtn">Book Now</button></div>
+        <div>
+          <a class="btn btn-danger" href="./Booking" role="button">Book Now
+        </a></div>
       </div>
     </div>
     <div class="col-md-4 col-md-30 img-div" >

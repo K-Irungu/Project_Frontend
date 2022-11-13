@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../img/logo.png";
+// import {BrowserRouter as Link} from "react-router-dom"
 
 function Navbar() {
   return (
@@ -7,7 +8,7 @@ function Navbar() {
     <div>
       <nav class=" navbar navbar-light bg-light">
         <div>
-          <a class="navbar-brand" href="#">
+          <a class="navbar-brand" href="./Home">
             <div className="App-header bg-light">
               <img
                 src={logo}
@@ -20,23 +21,24 @@ function Navbar() {
         </div>
         <div class=" navbar-expand-xl navbar-dark bg-danger">
           <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">
-                Specialists
+          <li class="nav-item">
+              <a class="nav-link" href="/">
+                Home
               </a>
             </li>
+
             <li class="nav-item">
-              <a class="nav-link" href="#">
+              <a class="nav-link" href="./Appointment">
                 Appointments
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">
+              <a class="nav-link active" aria-current="page" href="./Footer">
                 Contacts
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">
+              <a class="nav-link active" aria-current="page" href="./Login">
                 Login
               </a>
             </li>

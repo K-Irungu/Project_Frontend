@@ -6,7 +6,7 @@ function Footer() {
     return (
 
 
-<div class=" pt-5">
+<div>
 <footer class="footer-section bg-danger pt-5">
         <div class="copyright-area">
        
