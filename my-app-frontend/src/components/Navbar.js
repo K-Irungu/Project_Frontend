@@ -5,7 +5,7 @@ function Navbar() {
   return (
     // <h1>navbar</h1>
     <div>
-      <nav class="navbar navbar-light bg-light">
+      <nav class=" navbar navbar-light bg-light">
         <div>
           <a class="navbar-brand" href="#">
             <div className="App-header bg-light">
@@ -22,17 +22,22 @@ function Navbar() {
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">
-                Appointments
+                Specialists
               </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">
-                Book
+                Appointments
               </a>
             </li>
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">
-                Appointments
+                Contacts
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">
+                Login
               </a>
             </li>
           </ul>
