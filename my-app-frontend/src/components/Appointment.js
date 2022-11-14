@@ -87,6 +87,9 @@ function App() {
             <th scope="col">
               <h3 class="text-danger">Speciality</h3>
             </th>
+            <th scope="col justify-content-center">
+              <h3 class="text-danger">Actions</h3>
+            </th>
           </tr>
         </thead>
         <tbody>
