@@ -22,13 +22,18 @@ function Navbar() {
         <div class=" navbar-expand-xl navbar-dark bg-danger">
           <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-              <a class="nav-link" href="/">
+              <a class="nav-link active" href="/">
                 Home
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="./SpecialistCard">
+                Our Specialists
               </a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="./Appointment">
+              <a class="nav-link active" href="./Appointment">
                 Appointments
               </a>
             </li>
@@ -38,8 +43,8 @@ function Navbar() {
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="./Login">
-                Login
+              <a class="nav-link active" aria-current="page" href="./Details">
+                Update
               </a>
             </li>
           </ul>

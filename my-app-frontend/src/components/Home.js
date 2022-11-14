@@ -13,7 +13,7 @@ function Home() {
       <h1>Book a specialist</h1>
       <p>Tabibu is an simple to use appointment booking platform that can be used by patients, doctors or hospitals to schedule hospital visits.</p>
         <div>
-          <a class="btn btn-danger" href="./Booking" role="button">Book Now
+          <a class="btn btn-danger" href="/Booking" role="button">Book Now
         </a></div>
       </div>
     </div>

@@ -1,87 +1,110 @@
 import React, { useState, useEffect } from "react";
+import axios from "axios";
+;
 
 function Booking() {
+  const [patientName, setPatientName] = useState("");
+  const [doctorName, setDoctorName] = useState("");
+  const [doctorSpeciality, setDoctorSpeciality] = useState("");
+  const [message, setMessage] = useState("");
 
-// const[patientName, setPatientName] = useState({})
-// const[doctorName, setDoctorName] = useState({})
-// const[speciality, setSpeciality] = useState({})
-const[selects, setSelects]=useState();
+  const handlpatientname = (event) => {
+    const patient_name = event.target.value;
+    setPatientName(patient_name);
+  };
 
+  const handledoctorsName = (event) => {
+    const doctor_name = event.target.value;
+    setDoctorName(doctor_name);
+  };
 
+  const handledoctorSpeciality = (event) => {
+    const doctor_speciality = event.target.value;
+    setDoctorSpeciality(doctor_speciality);
+  };
 
+  const submitData = async (e) => {
+    e.preventDefault();
+    const userdata = {
+      patientName,
+      doctorName,
+      doctorSpeciality,
+    };
+    console.warn(submitData);
+    await axios
+      .post(
+        "https://jsonplaceholder.typicode.com/users",
+        JSON.stringify(userdata)
+      )
+      .then((result) => {
+        setMessage(result.data.msg);
+        console.log(result.data);
+        console.log(result.data.msg);
+      });
+  };
   return (
-    
-    <div class="bg-light">
-      <section class="container my-2 bg-danger w-50 text-light p-2 rounded">
-        <form class="row g-3 p-3">
-          <div class="col-md-4">
-            <label for="name" class="form-label">
-              Patient's Name
-            </label>
+    <div className="row">
+      <div className="col-sm-12">
+      <h1 class="text-danger text-center">Book your Appointment</h1>
+
+        {message ? (
+          <div className="text-success text-danger">
+            {" "}
+            <h5>{message} </h5>
+          </div>
+        ) : (
+          <></>
+        )}
+<div class="bg-light pt-5 m-5 pb-5 ">
+      <section class=" mb-3 container my-2 bg-danger w-50 text-light p-2 rounded">
+        <form onSubmit={submitData} className="row g-3 p-3">
+          <div className="col-md-4 " >
+            <label className="form-label "><h5 >Patient's Name</h5></label>
             <input
-              name="patientName"
+            placeholder="Enter Patient's name"
               type="text"
-              class="form-control"
-              id="Input1"
-              placeholder="name"
-            ></input>
+              name="patient_name"
+              className="form-control p-2"
+              onChange={(e) => handlpatientname(e)}
+            />
           </div>
 
-          <div class="col-md-4">
-            
-            <label for="input2" class="form-label">
-              Specialist
-            </label>
-            <select value={selects} onchange = {e=>setSelects(e.target.value)}defaultValue={'DEFAULT'} id="input2" class="form-select" name="speciality">
-              <option value="DEFAULT" disabled>Select</option>
-              <option value="dentist"> Dentist</option>
-              <option value="optician">Optician</option>
-            </select>
+          <div className="col-md-4">
+            <label className="form-label"><h5>Doctors name</h5></label>
+            <input
+              placeholder="Enter Dr's name"
+              type="text"
+              name=" doctor_name"
+              className="form-control p-2"
+              onChange={(e) => handledoctorsName(e)}
+            />
           </div>
 
-          <div class="col-md-4">
-            <label for="input3" class="form-label">
-              Specialist Available
-            </label>
-            <select defaultValue={'DEFAULT'} id="input3" class="form-select" name="doctorname">
-              <option value="DEFAULT" disabled selected>Select</option>
-              <option value="dentist1"> Dentist1</option>
-              <option value="optician1">Optician1</option>
-            </select>
+          <div className="col-md-4">
+            <label className="form-label"><h5>Speciality</h5></label>
+            <input
+            placeholder="Enter Dr's speciality"
+              type="text"
+              name="doctor_speciality"
+              className="form-control p-2"
+              onChange={(e) => handledoctorSpeciality(e)}
+            />
           </div>
 
-          <div class="col-12">
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" id="gridCheck" />
-              <label class="form-check-label" for="gridCheck">
-                Check me out
-              </label>
-            </div>
-          </div>
-          <div class="col-12">
-            <button type="submit" class="btn btn-light">
+          <div className="col-12 d-flex justify-content-center">
+            <button type="submit" className="btn btn-success mt-4">
               Book
             </button>
           </div>
         </form>
-      </section>
-
-      {/* // mmmmmmmmmmmmmm */}
-
-      <div class="column">
-        <div class="row">
-          <div class="card"><h1>A</h1></div>
-        </div>
-        <div class="row">
-          <div class="card"><h1>B</h1></div>
-        </div>
-        <div class="row">
-          <div class="card"><h1>C</h1></div>
-        </div>
+        </section>
       </div>
+       <>
+      
+       </>
     </div>
-
     
+    </div>
   );
 }
 

@@ -3,11 +3,12 @@ import "bootstrap/dist/js/bootstrap.bundle.min";
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
-// import Card from "./components/Card";
+import SpecialistCard from "./components/SpecialistCard";
 import Booking from "./components/Booking";
-import Login from "./components/Login";
+import Details from "./components/Details";
 import Footer from "./components/Footer";
 import Appointment from "./components/Appointment";
+// import Book from "./components/Book";
 
 // import Appointment from "./components/Appointment";
 
@@ -23,8 +24,10 @@ function App() {
     <Routes>
       <Route path="/" element= {<Home />}/>
       <Route path="/Booking" element= {<Booking />}/>
-      <Route path="/Login" element= {<Login />}/>
+      <Route path="/Details" element= {<Details />}/>
       <Route path="/Appointment" element= {<Appointment />}/>
+      <Route path="/SpecialistCard" element= {<SpecialistCard />}/>
+      {/* <Route path="/Book" element= {<Book />}/> */}
     </Routes>
     
 
